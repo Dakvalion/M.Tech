@@ -1,13 +1,11 @@
 
-import './App.css';
+import './app.css';
+import { FileUploader } from './components/FileUploader';
 
 function App() {
   return (
     <div class='container'>
-      <div class='wrap'>
-        <p class='text'>Выберите файл в формате CSV</p>
-        <button class='btn'>Выберите файл</button>
-      </div>
+      <FileUploader/>
     </div>
   );
 }
