@@ -1,0 +1,41 @@
+body{
+    background: #CBCBCB;
+    font-family: "Noto Sans", sans-serif;
+}
+.container {
+    background: #fff;
+    width: 825px;
+    height: 367px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 9.9px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 234px;
+    margin-left: 399px;
+
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn {
+    background: #6346B4;
+    width: 274px;
+    height: 48px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight:100;
+    align-self: center;
+    border: none;
+    margin-top: 52px;
+}
+
+.wrap {
+    padding-top: 79px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
