@@ -14,10 +14,21 @@ body{
 
 th {
     border-right: 2px solid #C0C0C0;
+    border-bottom: 2px solid #C0C0C0;
     padding: 15px 25px;
     text-align: left;
     font-weight: 100;
 }
+
+td {
+    border-bottom: 2px solid #C0C0C0;
+    padding: 15px 25px;
+    text-align: left;
+    font-weight: 100;
+}
+
+
+
 
 input[type="file"] {
     display: none;

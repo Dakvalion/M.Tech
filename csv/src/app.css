@@ -13,6 +13,7 @@ body{
     font-size: 24px;
     font-weight: 400;
     text-align: center;
+    margin-top: 5px;
 }
 
 .btn {
@@ -26,7 +27,7 @@ body{
     font-weight:100;
     align-self: center;
     border: none;
-    margin-top: 52px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +43,7 @@ body{
 }
 
 .wrap {
-    padding-top: 29px;
+    padding-top: 25px;
     display: flex;
     justify-content: center;
     flex-direction: column;
