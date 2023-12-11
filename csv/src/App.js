@@ -1,4 +1,5 @@
 
+import './app.css';
 import './table.css';
 import  {FileUploader} from './components/FileUploader';
 import { Table } from './components/Table';
@@ -12,7 +13,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Table/>}/>
+        <Route path="/" element={<FileUploader/>}/>
+        <Route path="/table" element={<Table/>}/>
       </Routes>
     </>
   );

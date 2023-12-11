@@ -1,3 +1,6 @@
+import { useNavigate } from 'react-router-dom';
+
+
 const headers = [
     {
         id:1,
@@ -29,11 +32,18 @@ const headers = [
 ]
 
 export function Table () {
+
+    const navigate = useNavigate();
+
+    const redirect = (event) => {
+        navigate("/");
+    }
+
     return (
         <>
-        <label for='file_upload' class="upload">Загрузить новый файл</label>
+        <button for='file_upload' class="upload" onClick={redirect}>Загрузить новый файл</button>
         <input type="file" id="file_upload"/>
-        <table className="container" width="1670px">
+        <table className="table_container" width="1670px">
             <thead>
                 <tr>
                     {headers.map((item) =>{

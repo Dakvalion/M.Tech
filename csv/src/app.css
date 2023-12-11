@@ -3,13 +3,9 @@ body{
     font-family: "Noto Sans", sans-serif;
 }
 .container {
-    background: #fff;
-    width: 825px;
-    height: 367px;
-    border-radius: 10px;
-    box-shadow: 2px 4px 9.9px 0px rgba(0, 0, 0, 0.25);
-    margin-top: 234px;
-    margin-left: 399px;
+    display: grid;
+    grid-template-rows: 2px 200px;
+
 
 }
 
@@ -46,12 +42,32 @@ body{
 }
 
 .wrap {
-    padding-top: 79px;
+    padding-top: 29px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background: #fff;
+    width: 825px;
+    height: 367px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 9.9px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 234px;
+    margin-left: 399px;
 }
 
 input[type="file"] {
     display: none;
+}
+
+.error-message {
+    background: #FF6565;
+    color: #fff;
+    width: 720px;
+    height: 89px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
 }
